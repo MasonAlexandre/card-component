@@ -1,0 +1,110 @@
+body{
+  background-color: #090B1A;
+}
+
+h1{
+  color: white;
+  font-size: 35px;
+  font-family: 'Inter', sans-serif;
+}
+
+h2{
+  color: white;
+  opacity: 0.9;
+  font-family: 'Inter', sans-serif;
+}
+
+p{
+  color: white;
+  opacity: 0.8;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+a{
+  color: powderblue;
+}
+
+span{
+  color: #AA5CDB;
+}
+
+img{
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  opacity: 0;
+}
+
+p{
+  font-size: 15px;
+  line-height: 1.5;
+  opacity: 0.5;
+}
+
+/***************CLASS IDS*******************/
+
+.info{
+  margin: 0 80px;
+  position: relative;
+  top: 50px;
+}
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin-top: 230px;
+}
+
+.flex-left{
+  background-color: #1B1938;
+  margin: 0 0;
+  width: 540px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  height: 446px;
+}
+
+.flex-right{
+  background: linear-gradient(
+  rgba(153, 102, 204, 0.55),
+  rgba(170, 92,	219, 0.65)
+  ),
+  url("../images/image-header-desktop.jpg");
+  margin: 0 0;
+  height: 446px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.stats{
+  position: relative;
+  top:100px;
+  left: 50px;
+}
+.stat-1{
+  display: inline-block;
+  margin: 0 25px;
+}
+
+.stat-2{
+  display: inline-block;
+  margin: 0 25px;
+}
+
+.stat-3{
+  display: inline-block;
+  margin: 0 25px;
+}
+
+.attribution{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.text{
+  position: relative;
+  bottom: 12px;
+  letter-spacing: 1.5px;
+  font-size: 12px;
+}
