@@ -59,27 +59,27 @@ p{
 .flex-left{
   background-color: #1B1938;
   margin: 0 0;
-  width: 540px;
+  width: 33.75rem;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
-  height: 446px;
+  height: 27.875rem;
 }
 
 .flex-right{
-  background: linear-gradient(
-  rgba(153, 102, 204, 0.55),
-  rgba(170, 92,	219, 0.65)
-  ),
-  url("../images/image-header-desktop.jpg");
+  background-image: url("../images/image-header-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(170, 92, 219);
+  background-blend-mode: multiply;
   margin: 0 0;
-  height: 446px;
+  height: 27.875rem;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
 }
 
 .stats{
   position: relative;
-  top:100px;
+  top: 100px;
   left: 50px;
 }
 .stat-1{
